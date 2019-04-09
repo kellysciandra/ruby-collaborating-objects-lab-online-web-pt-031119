@@ -39,10 +39,11 @@ class Artist
       @@all.find do |song| 
         song.name == name 
           song 
-          binding.pry
+          
           end 
       else 
         artist = self.new(name)
+        binding.pry
     end 
   end 
   
