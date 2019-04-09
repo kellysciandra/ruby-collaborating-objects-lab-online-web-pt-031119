@@ -12,7 +12,7 @@ class Song
     title = file.split(" - ")[1]
     song = self.new(title)
     binding.pry
-    artist_name = artist
+    song.artist_name = artist
     song
   end
   
