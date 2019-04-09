@@ -23,7 +23,9 @@ class Artist
     end 
   
     def print_songs 
-      puts @songs
+       @songs.each do |song|
+         puts song
+        end 
     end 
   
     def self.find_by_name(name)
