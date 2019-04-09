@@ -1,4 +1,4 @@
-
+require 'pry'
 class Artist 
   
   attr_accessor :name, :songs
@@ -24,6 +24,7 @@ class Artist
   
     def print_songs 
       @songs
+      binding.pry
     end 
   
     def self.find_by_name(name)
