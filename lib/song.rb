@@ -9,8 +9,9 @@ class Song
   
  def self.new_by_filename(file)
    binding.pry
-    song = self.new(name)
-    song.title = file.split(" - ")[1]
+    title = file.split(" - ")[1]
+    song = self.new(title)
+   
     song
   end
   
