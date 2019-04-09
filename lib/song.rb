@@ -11,7 +11,7 @@ class Song
    
     title = file.split(" - ")[1]
     song = self.new(title)
- 
+    artist_name =
     song
   end
   
