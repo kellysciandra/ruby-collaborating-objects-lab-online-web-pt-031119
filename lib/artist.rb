@@ -1,4 +1,4 @@
-
+require 'pry'
 class Artist 
   
   attr_accessor :name, :songs
@@ -39,6 +39,7 @@ class Artist
       @@all.find do |song| 
         song.name == name 
           song 
+          binding.pry
           end 
       else 
         self.artist.name = name 
