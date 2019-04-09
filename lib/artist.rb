@@ -41,7 +41,7 @@ class Artist
           song 
           end 
       else 
-        artist_name
+        self.artist.name = name
     end 
   end 
   
