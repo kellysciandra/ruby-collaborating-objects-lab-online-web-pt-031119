@@ -41,7 +41,7 @@ class Artist
           song 
           end 
       else 
-        song.artist_name
+        Song.artist_name
     end 
   end 
   
