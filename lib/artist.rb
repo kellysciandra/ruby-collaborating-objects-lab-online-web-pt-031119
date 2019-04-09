@@ -43,7 +43,6 @@ class Artist
           end 
       else 
         artist = self.new(name)
-        binding.pry
     end 
   end 
   
